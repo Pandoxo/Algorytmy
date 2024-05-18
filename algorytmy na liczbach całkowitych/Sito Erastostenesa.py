@@ -9,8 +9,8 @@ def sito(n):
     return tab
 
 
-n = 100
+n = 1000
 result = sito(n)
-for i in range(len(result)):
+for i in range(1,len(result)):
     if result[i] == 1:
         print(i)

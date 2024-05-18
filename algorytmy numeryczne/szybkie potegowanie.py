@@ -3,7 +3,10 @@ def potega(num, n):
     while n > 0:
         if n % 2 == 1:
             wynik *= num
+        if n == 1:
+            return wynik
         num *= num
         n //= 2
-    return wynik
-print(potega(2,10))
+
+
+print(potega(2, 10))

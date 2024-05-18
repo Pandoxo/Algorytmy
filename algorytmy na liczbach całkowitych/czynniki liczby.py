@@ -10,4 +10,4 @@ def czynniki(num):
                 break
     return result
 
-print(czynniki(21))
+print(czynniki(16))

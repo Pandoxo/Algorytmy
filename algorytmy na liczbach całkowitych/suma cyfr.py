@@ -5,6 +5,7 @@ def suma_cyfr(num):
         num //= 10
     return result
 
+#juz nie pamiętam o co tu chodziło
 
 def ciekawa_czy_nudna(num):
     tab = [0]*999

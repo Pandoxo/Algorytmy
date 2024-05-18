@@ -4,10 +4,7 @@ def doskonala(num):
     for i in range(1, num//2+1):
         if num % i == 0:
             sum += i
-    if sum == num:
-        return True
-    else:
-        return False
+    return sum == num
 
 
-print(doskonala(33550335))
+print(doskonala(6))
