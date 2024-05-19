@@ -24,4 +24,7 @@ def deszyfruj(txt,k):
     return  result
 
 
+print(szyrfruj("ABC", 2))
+
+
 
